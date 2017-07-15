@@ -1,3 +1,22 @@
+#photos {
+    text-align: center;
+}
+
+#profile-img {
+    margin: 0 auto;
+    background: no-repeat center/contain transparent;
+}
+
+#profile-canvas-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+
+#profile-canvas {
+    position: absolute;
+    left: 0;
+}
+
 body {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	padding: 0;
@@ -98,59 +117,6 @@ html {
   background: none;
   padding: 12px 12px 0 0;
 }
-
-#profilepictures:first-child, #coverphotos:nth-child(even) {
-	padding-left: 12px;
-}
-
-.grid-item img {
-  display: block;
-  width: 100%;
-}
-
-.grid-item--cover { 
-	width: 49.9%;
-	margin: 0 auto;
-}
-
-.grid-item .paddedcontainer {
-	width: 100%;
-	position: relative;
-}
-
-.grid-item .caption {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: rgba(255, 255, 255, 0.75);
-	z-index: 5;
-	bottom: 0px;
-	border: 2px rgba(0, 0, 0, 0) solid;
-}
-
-.grid-item .caption:not(:first-child) {
-	left: 6px;
-}
-
-.grid-item .progressbar {
-	position: absolute;
-	height: 6px;
-	width: 0%;
-	text-align: center;
-	background-color: #93C82F;
-	color: rgba(255, 255, 255, 0.5);
-	font-size: 1.25em;
-	z-index: 4;
-	border: 2px rgba(0, 0, 0, 0) solid;
-}
-
-.grid-item .caption a {
-	color: #fff;
-	cursor: pointer;
-}
-
-/* End of photos stuff */
 
 /* Animations */
 .ng-hide-add, .ng-hide-remove {
